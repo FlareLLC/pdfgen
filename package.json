@@ -1,0 +1,20 @@
+{
+  "name": "pdfgen",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "tsc && node build/index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "html-pdf-node": "^1.0.7",
+    "multer": "^1.4.2"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.12",
+    "@types/multer": "^1.4.5"
+  }
+}
